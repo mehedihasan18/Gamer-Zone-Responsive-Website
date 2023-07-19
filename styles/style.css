@@ -164,6 +164,53 @@ nav>ul li a {
     margin-top: 1.5rem;
 }
 
+/* play instantly section */
+.play-instantly-section {
+    padding: 0 10%;
+    margin-top: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 7.5rem;
+}
+
+.text-container {
+    /* width: 50%; */
+    text-align: right;
+    margin: 0 auto;
+}
+
+.text-container .title {
+    width: 320px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.text-container .title-special {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-container .details {
+    width: 320px;
+    color: #534C64;
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.img-container .angela-img {
+    width: 50%;
+    position: relative;
+    right: 175px;
+    top: -275px;
+}
+
 /* mobile view */
 @media screen and (max-width:576px) {
 
@@ -233,7 +280,32 @@ nav>ul li a {
     .card-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .play-instantly-section {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .img-container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .img-container .main-game-img {}
+
+    .img-container .angela-img {
+        width: 50%;
+        right: 110px;
+        top: -120px;
+    }
 }
+
+
 
 /* tablet view  */
 @media screen and (min-width:577px) and (max-width:768px) {
@@ -305,4 +377,26 @@ nav>ul li a {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .play-instantly-section {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .img-container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .img-container .main-game-img {}
+
+    .img-container .angela-img {
+        width: 50%;
+        right: 230px;
+        top: -210px;
+    }
 }
