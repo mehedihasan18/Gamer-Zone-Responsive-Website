@@ -68,21 +68,20 @@ nav>ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 4.25rem;
 }
 
 .banner-left {
     width: 50%;
 }
 
-.banner-left>h2 {
+.banner-left h2 {
     color: #0B0223;
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.banner-left>h1 {
+.banner-left h1 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -93,7 +92,7 @@ nav>ul li a {
     margin-bottom: 1.5rem;
 }
 
-.banner-left>p {
+.banner-left p {
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
@@ -134,6 +133,7 @@ nav>ul li a {
 
     nav {
         width: 100%;
+        height: 280px;
         margin-top: 3rem;
         padding: 1rem;
     }
@@ -141,6 +141,52 @@ nav>ul li a {
     .brand {
         font-size: 1.5rem;
         margin-bottom: 1rem;
+    }
+
+    .banner-container {
+        background: none;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .banner-left {
+        width: 100%;
+        background-image: url("/images/banner-background.png");
+        background-repeat: no-repeat;
+        padding: 5rem 1rem;
+        margin: auto;
+    }
+
+    .banner-text {
+        width: 80%;
+        margin: auto;
+    }
+
+    .banner-left h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .banner-left h1 {
+        font-size: 4rem;
+    }
+
+    .banner-left p {
+        font-size: 1rem;
+    }
+
+    .banner-left .btn-sign-in,
+    .btn-go-rogue {
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+    }
+
+    .banner-right {
+        width: 100%;
+        padding: 1rem;
     }
 }
 
@@ -154,6 +200,7 @@ nav>ul li a {
 
     nav {
         width: 100%;
+        height: 280px;
         margin-top: 3rem;
         padding: 1rem;
     }
@@ -161,5 +208,51 @@ nav>ul li a {
     .brand {
         font-size: 2rem;
         margin-bottom: 1rem;
+    }
+
+    .banner-container {
+        background: none;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .banner-left {
+        width: 100%;
+        background-image: url("/images/banner-background.png");
+        background-repeat: no-repeat;
+        padding: 5rem 1rem;
+        margin: auto;
+    }
+
+    .banner-text {
+        width: 70%;
+        margin: auto;
+    }
+
+    .banner-left h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .banner-left h1 {
+        font-size: 4rem;
+    }
+
+    .banner-left p {
+        font-size: 1rem;
+    }
+
+    .banner-left .btn-sign-in,
+    .btn-go-rogue {
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+    }
+
+    .banner-right {
+        width: 100%;
+        padding: 1rem;
     }
 }
