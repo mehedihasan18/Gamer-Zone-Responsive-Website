@@ -62,7 +62,7 @@ nav>ul li a {
 /* banner styles */
 .banner-container {
     width: 100%;
-    background-image: url("/images/banner-background.png");
+    background-image: url('../images/banner-background.png');
     background-repeat: no-repeat;
     padding: 0px 10%;
     display: flex;
@@ -115,8 +115,16 @@ nav>ul li a {
     margin-right: 1.5rem;
 }
 
+.btn-sign-in:hover {
+    background-color: #f8198c;
+}
+
 .btn-go-rogue {
     background-color: #4EC5F7;
+}
+
+.btn-go-rogue:hover {
+    background-color: #21b7f7;
 }
 
 .banner-right {
@@ -230,6 +238,10 @@ nav>ul li a {
 .game-category:hover {
     border: 1px solid #F948B2;
     border-radius: 3rem;
+}
+
+.game-category:hover p {
+    color: #F948B2;
 }
 
 .game-category p {
@@ -559,6 +571,7 @@ footer {
     .game-category p {
         font-size: 10px;
     }
+
     .footer-container {
         width: 100%;
         margin: auto;
