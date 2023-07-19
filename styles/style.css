@@ -123,6 +123,47 @@ nav>ul li a {
     width: 50%;
 }
 
+/* online game funny video section */
+.funny-video-section {
+    text-align: center;
+    padding: 0 10%;
+    margin-top: 7.5rem;
+}
+
+.funny-video-section .title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.funny-video-section .title-last {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-video-section .details {
+    color: #534C64;
+    font-size: 1.125rem;
+    line-height: 30px;
+    margin-bottom: 3rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.card .card-text {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 1.5rem;
+}
+
 /* mobile view */
 @media screen and (max-width:576px) {
 
@@ -187,6 +228,10 @@ nav>ul li a {
     .banner-right {
         width: 100%;
         padding: 1rem;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -255,4 +300,9 @@ nav>ul li a {
         width: 100%;
         padding: 1rem;
     }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
